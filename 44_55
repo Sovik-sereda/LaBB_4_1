@@ -1,0 +1,15 @@
+#include <iostream>
+#pragma pack(1)
+
+using namespace std;
+
+struct PointerStruct {
+    int* ptr1; // Вказівник на int (8 байтів)
+    double* ptr2; // Вказівник на double (8 байтів)
+    char* ptr3; // Вказівник на char (8 байтів)
+};
+
+int main() {
+    cout << "Size of the PointerStruct structure: " << sizeof(PointerStruct) << " byte" << endl;
+    return 0;
+}
