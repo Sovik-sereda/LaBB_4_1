@@ -1,0 +1,18 @@
+#include <iostream>
+#pragma pack(1)
+
+using namespace std;
+
+struct MyStruct {
+    int a;
+    double c;
+    float d;
+    short e;
+    long long f;
+    char b;
+};
+
+int main() {
+    cout << "Size of the structure MyStruct: " << sizeof(MyStruct) << " byte" << endl;
+    return 0;
+}
