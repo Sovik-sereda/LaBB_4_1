@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+struct MyStruct {
+    int a;
+    char b;
+    double c;
+};
+
+int main() {
+    cout << "Size of the structure MyStruct: " << sizeof(MyStruct) << " byte" << endl;
+    return 0;
+}
